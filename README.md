@@ -1,7 +1,7 @@
 # drought
 
 ## Principles
-<small>(ref https://medium.com/swlh/how-to-structure-a-python-based-data-science-project-a-short-tutorial-for-beginners-7e00bff14f56)</small>
+> ref https://medium.com/swlh/how-to-structure-a-python-based-data-science-project-a-short-tutorial-for-beginners-7e00bff14f56
 
 1. A clear data pipeline (starting with unchanged raw data): This means that the data is transformed in stages. For example, the raw data is fed into a notebook that transforms and saves an intermediate (cleaned) dataset. The intermediate dataset is then read into a processing notebook where feature engineering takes place. The new dataset (with features) is then saved before moving onto the next stage.
 2. Separation of concerns (seperate files that do different things): In computer science, separation of concerns (SoC) is a design principle for separating a computer program into distinct sections, so that each section addresses a separate concern.
@@ -9,6 +9,7 @@
 
 This project follows the project structure of "Data Science for Social Good"...
 
+```
 ├── README.md          <- The top-level README for developers.
 ├── conf               <- Space for credentials
 │
@@ -67,6 +68,6 @@ This project follows the project structure of "Data Science for Social Good"...
     │
     └── d07_visualisation<- Scripts to create frequently used plots
         └── visualise_patient_journey.py
-
+```
 
 
